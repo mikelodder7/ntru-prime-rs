@@ -16,6 +16,7 @@ version = "0.1.0"
 
 
 [dependencies]
+subtle = "2.6"
 
 
 [dev-dependencies]
