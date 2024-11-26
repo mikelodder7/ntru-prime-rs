@@ -1,0 +1,25 @@
+[package]
+authors = ["Michael Lodder <redmike7@gmail.com>"]
+categories = ["cryptography"]
+description = "A pure rust implementation of Streamlined NTRUPrime and NTRU LPrime taken from PQClean"
+documentation = "https://docs.rs/ntru-prime-rs"
+edition = "2021"
+exclude = ["tests/**", "benches/**", "examples/**", ".github/**"]
+homepage = "https://crates.io/crates/ntru-prime-rs"
+keywords = ["post", "quantum", "kem"]
+license = "Apache-2.0 OR MIT"
+name = "ntru-prime-rs"
+readme = "README.md"
+version = "0.1.0"
+
+[features]
+
+
+[dependencies]
+
+
+[dev-dependencies]
+
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docsrs"]
